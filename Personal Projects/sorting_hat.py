@@ -3,12 +3,15 @@ rave = 0
 sly = 0
 gry = 0
 
-print('~~~~~~~~~Welcome to Hogwarts. Please sit and receive the Sorting Hat. ~~~~~~~~~')
+print('~~~~~~~~~Welcome to Hogwarts. Please sit and receive the Sorting Hat. ~~~~~~~~~\n')
+
 student = input('Enter your name: ')
 
-print(f'Nice to meet you {student}, I will begin asking questions to determine which house would present the best fit for someone of your skill and personality.\n')
+print(f"""\nNice to meet you {student}, I will begin asking questions to determine
+which house would present the best fit for someone of your skill and personality.\n""")
 
-q1 = input('What do you consider to be the most important quality? \n A: Wisdom \n B: Honesty \n C: Power \n D: Friendship \n:')
+q1 = input("""What do you consider to be the most important quality?
+ A: Wisdom \n B: Honesty \n C: Power \n D: Friendship \n: """)
 
 if q1.lower() == 'a':
     rave += 1
@@ -21,7 +24,8 @@ elif q1.lower() == 'd':
 else:
     print("Sorry, I don't understand that answer")
 
-q2 = input('What kind of instrument most pleases your ear? \n A: Violin \n B: Drums \n C: Piano \n D: Trumpet \n:')
+q2 = input("""What kind of instrument most pleases your ear?
+A: Violin \n B: Drums \n C: Piano \n D: Trumpet \n: """)
 
 if q2.lower() == 'c':
     rave += 1
@@ -34,7 +38,11 @@ elif q2.lower() == 'b':
 else:
     print("Sorry, I don't understand that answer")
 
-q3 = input('Four goblets are placed before you. Which would you choose to drink? \n A: The foaming, frothing, silvery liquid that sparkles as though containing ground diamonds. \n B: The smooth, thick, richly purple drink that gives off a delicious smell of chocolate and plums. \n C: The golden liquid so bright that it hurts the eye, and which makes sunspots dance all around the room \n D: The mysterious black liquid that gleams like ink, and gives off fumes that make you see strange visions. \n:')
+q3 = input("""Four goblets are placed before you. Which would you choose to drink?'
+A: The foaming, frothing, silvery liquid that sparkles as though containing ground diamonds.
+B: The smooth, thick, richly purple drink that gives off a delicious smell of chocolate and plums.
+C: The golden liquid so bright that it hurts the eye, and which makes sunspots dance all around the room
+D: The mysterious black liquid that gleams like ink, and gives off fumes that make you see strange visions. \n : """)
 
 if q3.lower() == 'a':
     rave += 1
@@ -62,7 +70,11 @@ elif q4.lower() == 'b':
 else:
     print("Sorry, I don't understand that answer")
 
-q5 = input('Which road tempts you most? \n A: The wide, sunny, grassy lane \n B: The narrow, dark, lantern-lit alley \n C: The twisting, leaf-strewn path through the woods \n D: The cobbled street lined with ancient buildings \n:')
+q5 = input("""Which road tempts you most?
+A: The wide, sunny, grassy lane
+B: The narrow, dark, lantern-lit alley
+C: The twisting, leaf-strewn path through the woods
+D: The cobbled street lined with ancient buildings \n: """)
 
 if q5.lower() == 'd':
     rave += 1
@@ -75,7 +87,12 @@ elif q5.lower() == 'a':
 else:
     print("Sorry, I don't understand that answer")
 
-q6 = input('Which nightmare would frighten you most? \n A: Standing on top of something very high and realizing suddenly that there are no hand- or footholds, nor any barrier to stop you falling \n B: An eye at the keyhole of the dark, windowless room in which you are locked \n C: Waking up to find that neither your friends nor your family have any idea who you are. \n D: Being forced to speak in such a silly voice that hardly anyone can understand you, and everyone laughs at you \n:')
+q6 = input("""Which nightmare would frighten you most?
+A: Standing atop something very high and realizing suddenly that there is nothing to stop you falling.
+B: An eye at the keyhole of the dark, windowless room in which you are locked.
+C: Waking up to find that neither your friends nor your family have any idea who you are.
+D: Being forced to speak in such a silly voice that hardly anyone can understand you, and everyone laughs at you.
+: """)
 
 if q6.lower() == 'b':
     rave += 1
