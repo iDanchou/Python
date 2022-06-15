@@ -2,17 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d120b62b-fad5-48e6-b6e4-1a92d29c11a4" name="Changes" comment="updates">
-      <change afterPath="$PROJECT_DIR$/Personal Projects/average_height.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Personal Projects/average_score.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Personal Projects/calculator.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Personal Projects/fizzbuzz.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Personal Projects/janken.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Personal Projects/jermane_janken.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Personal Projects/password_generator.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Personal Projects/tip_calculator.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Personal Projects/treasure_island_CYOA.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/CSE.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/CSE.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Personal Projects/banker_roulette.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Personal Projects/bmi_calc.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Personal Projects/leap_year.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
