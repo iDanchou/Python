@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d120b62b-fad5-48e6-b6e4-1a92d29c11a4" name="Changes" comment="updates">
-      <change beforePath="$PROJECT_DIR$/Personal Projects/sorting_hat.py" beforeDir="false" afterPath="$PROJECT_DIR$/Personal Projects/sorting_hat.py" afterDir="false" />
-    </list>
+    <list default="true" id="d120b62b-fad5-48e6-b6e4-1a92d29c11a4" name="Changes" comment="updates" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
