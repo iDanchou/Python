@@ -2,12 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d120b62b-fad5-48e6-b6e4-1a92d29c11a4" name="Changes" comment="updates">
+<<<<<<< HEAD
       <change afterPath="$PROJECT_DIR$/Personal Projects/calculator.py" afterDir="false" />
+=======
+      <change afterPath="$PROJECT_DIR$/Personal Projects/banker_roulette.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Personal Projects/bmi_calc.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Personal Projects/leap_year.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+>>>>>>> 112932f5d532efa281b03f7573eb5d4023df8814
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
   </component>
   <component name="Git.Merge.Settings">
     <option name="BRANCH" value="origin/main" />

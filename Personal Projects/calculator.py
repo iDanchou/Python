@@ -38,13 +38,21 @@ def addition():
 def subtraction():
     while True:
         try:
+<<<<<<< HEAD
             num1 = float(input("\nEnter your first number for Subtraction: "))
+=======
+            num1 = float(input("\nEnter your first number for Subtractraction: "))
+>>>>>>> 112932f5d532efa281b03f7573eb5d4023df8814
             break
         except ValueError:
             print("This was not valid input. Please try again.")
     while True:
         try:
+<<<<<<< HEAD
             num2 = float(input("Enter your second number for  Subtraction: "))
+=======
+            num2 = float(input("Enter your second number for  Subtractraction: "))
+>>>>>>> 112932f5d532efa281b03f7573eb5d4023df8814
             break
         except ValueError:
             print("This was not valid input. Please try again.")
@@ -98,4 +106,9 @@ def go_again():
 
 
 print("Welcome.")
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> 112932f5d532efa281b03f7573eb5d4023df8814
 choose_calc()
