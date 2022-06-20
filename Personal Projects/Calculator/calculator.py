@@ -4,6 +4,7 @@ print(logo)
 
 
 def choose_calc():
+    """Allows you to choose what action you'd like to take with the calculator"""
     option = str(input("""\nWould you like to use:
 (A). Addition:
 (B). Subtraction:
@@ -24,6 +25,7 @@ Please enter an option: """))
 
 
 def addition():
+    """You will use the addition function"""
     while True:
         try:
             num1 = float(input("\nEnter your 1st number for Addition: "))
@@ -41,6 +43,7 @@ def addition():
 
 
 def subtraction():
+    """You will use the subtraction function"""
     while True:
         try:
             num1 = float(input("\nEnter your 1st number for Subtraction: "))
@@ -58,6 +61,7 @@ def subtraction():
 
 
 def multiplication():
+    """You will use the multiplication function"""
     while True:
         try:
             num1 = float(input("\nEnter your 1st number for Multiplication: "))
@@ -75,6 +79,7 @@ def multiplication():
 
 
 def division():
+    """You will use the division function"""
     while True:
         try:
             num1 = float(input("\nEnter the 1st number you wish to Divide: "))
@@ -92,6 +97,7 @@ def division():
 
 
 def go_again():
+    """You will be able to use the same or different function without exiting"""
     again = str(input("Would you like to perform any other functions? Press y to continue or q to quit: "))
     if again.lower() == "y":
         choose_calc()
