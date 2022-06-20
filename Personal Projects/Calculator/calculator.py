@@ -1,3 +1,8 @@
+from calculator_art import logo
+
+print(logo)
+
+
 def choose_calc():
     option = str(input("""\nWould you like to use:
 (A). Addition:
@@ -21,13 +26,13 @@ Please enter an option: """))
 def addition():
     while True:
         try:
-            num1 = float(input("\nEnter your first number for Addition: "))
+            num1 = float(input("\nEnter your 1st number for Addition: "))
             break
         except ValueError:
             print("This was not valid input. Please try again.")
     while True:
         try:
-            num2 = float(input("Enter your second number for Addition: "))
+            num2 = float(input("Enter your 2nd number for Addition: "))
             break
         except ValueError:
             print("This was not valid input. Please try again.")
@@ -38,21 +43,13 @@ def addition():
 def subtraction():
     while True:
         try:
-<<<<<<< HEAD
-            num1 = float(input("\nEnter your first number for Subtraction: "))
-=======
-            num1 = float(input("\nEnter your first number for Subtractraction: "))
->>>>>>> 112932f5d532efa281b03f7573eb5d4023df8814
+            num1 = float(input("\nEnter your 1st number for Subtraction: "))
             break
         except ValueError:
             print("This was not valid input. Please try again.")
     while True:
         try:
-<<<<<<< HEAD
-            num2 = float(input("Enter your second number for  Subtraction: "))
-=======
-            num2 = float(input("Enter your second number for  Subtractraction: "))
->>>>>>> 112932f5d532efa281b03f7573eb5d4023df8814
+            num2 = float(input("Enter your 2nd number for  Subtraction: "))
             break
         except ValueError:
             print("This was not valid input. Please try again.")
@@ -63,13 +60,13 @@ def subtraction():
 def multiplication():
     while True:
         try:
-            num1 = float(input("\nEnter your first number for Multiplication: "))
+            num1 = float(input("\nEnter your 1st number for Multiplication: "))
             break
         except ValueError:
             print("This was not valid input. Please try again.")
     while True:
         try:
-            num2 = float(input("Enter your second number for Multiplication: "))
+            num2 = float(input("Enter your 2nd number for Multiplication: "))
             break
         except ValueError:
             print("This was not valid input. Please try again.")
@@ -106,9 +103,4 @@ def go_again():
 
 
 print("Welcome.")
-<<<<<<< HEAD
-=======
-
-
->>>>>>> 112932f5d532efa281b03f7573eb5d4023df8814
 choose_calc()
