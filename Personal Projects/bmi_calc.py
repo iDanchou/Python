@@ -7,11 +7,11 @@ def bmi_funct():
     new_bmi = round(bmi)
     if bmi < 18.5:
         print(f"Your BMI is {new_bmi}, you are underweight.")
-    elif bmi > 18.5 and bmi < 25:
+    elif 18.5 < bmi < 25:
         print(f"Your BMI is {new_bmi}, you have a normal weight.")
-    elif bmi > 25 and bmi < 30:
+    elif 25 < bmi < 30:
         print(f"Your BMI is {new_bmi}, you are slightly overweight.")
-    elif bmi > 30 and bmi < 35:
+    elif 30 < bmi < 35:
         print(f"Your BMI is {new_bmi}, you are obese.")
     else:
         print(f"Your BMI is {new_bmi}, you are clinically obese.")
