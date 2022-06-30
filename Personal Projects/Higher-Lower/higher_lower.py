@@ -4,7 +4,7 @@ import random
 
 
 def format_data(option):
-    """Format the data for the accounts"""
+    """Format the data for the options"""
     option_name = option['name']  # uses name key to find value
     option_description = option['description']  # Uses the description key to find the value
     option_country = option['country']   # uses the country key to find the value for each option
@@ -13,7 +13,7 @@ def format_data(option):
 
 
 def check_answer(answer, option_a_follower, option_b_follower):
-    """Takes account data and returns if answer was correct"""
+    """Takes option data and returns if answer was correct"""
     if option_a_follower > option_b_follower:
         return answer == "A"
     else:
@@ -30,7 +30,7 @@ again = True
 option_b = random.choice(data)
 
 while again:
-    # Generate a random account from within the list
+    # Generate a random option from within the list
     option_a = option_b
     option_b = random.choice(data)
     if option_a == option_b:

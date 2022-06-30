@@ -2,9 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c5c5bb66-b8a9-4c00-be15-847f738e2198" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Personal Projects/Higher-Lower/HL_art.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Personal Projects/Higher-Lower/HL_game_data.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Personal Projects/Higher-Lower/higher_lower.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
