@@ -22,7 +22,7 @@ def love_score():
 
     if int(true_love_score) < 10 or int(true_love_score) > 90:
         print(f"Your score is {true_love_score}, you go together like coke and mentos.")
-    elif int(true_love_score) > 39 and int(true_love_score) < 51:
+    elif 39 < int(true_love_score) < 51:
         print(f"Your score is {true_love_score}, you are alright together.")
     else:
         print(f"Your score is {true_love_score}.")
