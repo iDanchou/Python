@@ -18,49 +18,64 @@
 
 import pandas  # Better formatting and easier to use
 
-data = pandas.read_csv("weather_data.csv")
-# # print(data)
-# # print(data["temp"])
+# data = pandas.read_csv("weather_data.csv")
+# # # print(data)
+# # # print(data["temp"])
+# #
+# # # data_dict = data.to_dict()
+# # # print(data_dict)
+# #
+# # temp_list = data["temp"].to_list()
+# # print(temp_list)
+# #
+# # # average = sum(temp_list) / len(temp_list)
+# # # print(average)
+# #
+# # print(data["temp"].mean())
+# #
+# # print(data["temp"].max())  # BOTH COMMANDS ARE THE SAME
+# # print(data.temp.max())
+# #
+# # # GET DATA IN COLUMNS
+# print(data.condition)
 #
-# # data_dict = data.to_dict()
-# # print(data_dict)
+# # HOW TO GET DATA IN THE ROWS
+# print(data[data.day == "Monday"])
+# print(data[data.temp == data.temp.max()])
 #
-# temp_list = data["temp"].to_list()
-# print(temp_list)
+# monday = data[data.day == "Monday"]
+# print(monday.condition)
+# print(monday.day)
+# print(monday.temp)
+
+# def ctof(temp):
+#     new_temp = temp * 1.8 + 32
+#     return new_temp
+
+# print(ctof(int(monday.temp)))
 #
-# # average = sum(temp_list) / len(temp_list)
-# # print(average)
+# # CREATE A DATAFRAME FROM SCRATCH
+# data_dict = {
+#     "students": ["Amy", "James", "Angela"],
+#     "scores": [76, 56, 65]
+# }
 #
-# print(data["temp"].mean())
-#
-# print(data["temp"].max())  # BOTH COMMANDS ARE THE SAME
-# print(data.temp.max())
-#
-# # GET DATA IN COLUMNS
-print(data.condition)
+# data = pandas.DataFrame(data_dict)
+# data.to_csv("new_data.csv")
 
-# HOW TO GET DATA IN THE ROWS
-print(data[data.day == "Monday"])
-print(data[data.temp == data.temp.max()])
+squirrel_data = pandas.read_csv("2018_Central_Park_Squirrel_Census_-_Squirrel_Data.csv")
+gray_squirrels = squirrel_data[squirrel_data["Primary Fur Color"] == "Gray"]
+red_squirrels = squirrel_data[squirrel_data["Primary Fur Color"] == "Cinnamon"]
+black_squirrels = squirrel_data[squirrel_data["Primary Fur Color"] == "Black"]
 
-monday = data[data.day == "Monday"]
-print(monday.condition)
-print(monday.day)
-print(monday.temp)
+num_black_squirrels = len(black_squirrels)
+num_red_squirrels = len(red_squirrels)
+num_gray_squirrels = len(gray_squirrels)
 
-
-def ctof(temp):
-    new_temp = temp * 1.8 + 32
-    return new_temp
-
-
-print(ctof(int(monday.temp)))
-
-# CREATE A DATAFRAME FROM SCRATCH
-data_dict = {
-    "students": ["Amy", "James", "Angela"],
-    "scores": [76, 56, 65]
+squirrel_dict = {
+    "Fur Color": ["gray", "red", "black"],
+    "Count": [num_gray_squirrels, num_red_squirrels, num_black_squirrels]
 }
 
-data = pandas.DataFrame(data_dict)
-data.to_csv("new_data.csv")
+data = pandas.DataFrame(squirrel_dict)
+data.to_csv("squirrel_count.csv")
